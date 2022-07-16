@@ -1,0 +1,229 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body
+{
+    /* background-image: url('../image/background\ blue.webp'); */
+    position: relative;
+}
+#imgg
+{
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/blue\ blue.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2.5px);
+}
+header
+{
+    /* border: 1px solid red; */
+    height: 8vh;
+}
+h1
+{
+    color: rgb(111, 177, 136);
+    font-family: monospace;
+    font-size: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* font-weight: 900; */
+}
+/* .kkkk
+{
+    width: 10vw;
+    border: 1px solid white;
+    height: 10vh;
+} */
+#userDetail
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-around;
+    color:rgb(168, 216, 113);
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 17px;
+}
+#u1, #u2,#vsTxt
+{
+    /* margin-left: -50px; */
+    /* border: 1px solid white; */
+    border-bottom: 1px solid rgb(212, 102, 102);
+    color:rgb(168, 216, 113);
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+#rslt
+{
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
+    /* border: 1px solid white; */
+    height: 63px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#lblDiv
+{
+    margin-top: 180px;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+label
+{
+    /* text-align: center; */
+    /* width:max-content; */
+    
+    /* border: 1px solid white; */
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+
+}
+#container
+{
+    /* border: 1px solid black; */
+    display: flex;
+    /* height: 70vh; */
+}
+.inContainer
+{
+    margin-top: 15px;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    padding: 0px 5px;
+    /* height: 358px; */
+    height: 65.5vh;
+    width: calc(100vw/3);
+    box-shadow: 1px 1px 4px 0px black;
+    margin-right: 5px;
+}
+.userimgs
+{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 0px 25px;
+    height: 129px;
+    width: calc(100vw/3);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+.timer
+{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+    /* visibility:visible */
+
+}
+.uTimer
+{
+    height: 140px;
+    width: 250px;
+    position: relative;
+    top: -7px;
+    left: -62px;
+}
+.uAcc
+{
+    /* border: 1px solid yellow; */
+    border-radius: 50%;
+    padding: 0;
+    background-color:rgb(68, 81, 105)
+
+}
+.uPic
+{
+    /* border: 1px solid yellow; */
+    height: 128px;
+    width: 128px;
+    margin: 0;
+}
+.guide
+{
+    /* border: 1px solid wheat; */
+    /* padding-top: 20px; */
+}
+.guideTxt
+{
+    padding-left: 60px;
+    /* border: 1px solid greenyellow; */
+    text-decoration: underline;
+    font-family: monospace;
+    font-size:xx-large;
+    color: rgb(133, 173, 68);
+}
+.innfo
+{
+    /* border: 1px solid whitesmoke; */
+    text-transform: capitalize;
+    color: rgba(233, 241, 191, 0.863);
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5px;
+}
+#footer
+{
+    margin-top: 5px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    /* height: 123px; */
+    padding: 0;
+}
+#result
+{
+    /* border: 1px solid blanchedalmond; */
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(255, 239, 234);
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+#Tresult
+{
+    /* border: 1px solid white; */
+}
+#table
+{
+    border-collapse: collapse;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* box-shadow: 1px 1px 10px 2px black; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#table th,#table td{
+    border: 1px solid rgba(228, 199, 199, 0.411) ;
+    padding: 5px;
+}
+#table th
+{
+    font-size: 19px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    padding: 3px 12px;
+    font-weight: 200;
+    padding-right: 15px;
+    word-spacing: 5px;
+
+}
+#table td
+{
+    background-color: rgb(158, 70, 70);
+    color: rgb(230, 224, 202);
+    font-family:Helvetica;
+}
