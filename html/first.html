@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/first.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body onload="result1()" onkeypress="strt(event)">
+    <!-- <body> -->
+    <div id="imgg">
+        <!-- <img src="../image/blue blue.jpg" alt=""> -->
+    </div>
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+    <!-- <div class="kkkk"></div> -->
+    <!-- <div id="userDetail">
+        <h2 id="u1">USER 1</h2>
+        <h2 id="vs">VS</h2>
+        <h2 id="u2">USER 2</h2>
+    </div> -->
+    <div id="container">
+
+                    <!-- user 1 block -->
+
+        <div id="u1Detail" class="inContainer">
+            <h2 id="u1">USER 1</h2>
+                    <!-- images of user1 -->
+            <div class="userimgs">
+                <div class="timer">
+                    <img src="../image/20.gif" alt="timer" id="u1Timer" class="uTimer">
+                </div>
+                <div class="uAcc">
+                    <img src="../image/480px-Microsoft_Account.svg.png" alt="account pic" class="uPic">
+                </div>
+            </div>
+                    <!-- guide for user1 -->
+            <div class="guide">
+                <h2 class="innfo">user 1 trigger:-</h2>
+                <h2 class="guideTxt">Press 'a' for ROCK</h2>
+                <h2 class="guideTxt">Press 's' for SCISSOR</h2>
+                <h2 class="guideTxt">Press 'd' for PAPER</h2>
+            </div>
+        </div>
+                        <!-- user 1 block end -->
+
+
+                        <!--  VS block -->
+
+        <div id="vsBlock" class="inContainer">
+            <h2 id="vsTxt">VS</h2>
+            <div>
+                <p id="rslt">
+                    <!-- user 1 winner -->
+                </p>
+            </div>
+            <div id="lblDiv">
+
+                <label id="lbl">user 1 enter your choice</label>
+            </div>
+        </div>
+                        <!--  VS block end -->
+
+                        <!-- user 2 block -->
+
+        <div id="u2Detail" class="inContainer">
+            <h2 id="u2">USER 2</h2>
+            <div class="userimgs">
+                <div class="uAcc">
+                    <img src="../image/480px-Microsoft_Account.svg.png" alt="account pic" class="uPic">
+                </div>
+                <div class="timer">
+                    <img src="../image/20.gif" alt="timer" id="u2Timer" class="uTimer" width="250px" height="140">
+                </div>
+
+            </div> 
+                        <!-- guide for user1 -->
+            <div class="guide">
+                <h2 class="innfo">user 2 trigger:-</h2>
+                <h2 class="guideTxt">Press 'j' for ROCK</h2>
+                <h2 class="guideTxt">Press 'k' for SCISSOR</h2>
+                <h2 class="guideTxt">Press 'l' for PAPER</h2>
+            </div>
+            
+        </div>
+                        <!-- user 2 block end -->
+                        
+    </div>
+                        <!-- result block -->
+    <div id="footer">
+        <h2 id="result">RESULT</h2>
+        <div id="Tresult">
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="5" >Last 5 Result</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td class="td1">User 1</td>
+                    <td id="u1_1" class="uRes u1Res">-</td>
+                    <td id="u1-2" class="uRes u1Res">-</td>
+                    <td id="u1-3" class="uRes u1Res">-</td>
+                    <td id="u1-4" class="uRes u1Res">-</td>
+                    <td id="u1-5" class="uRes u1Res">-</td>
+                    <td id="u1-total">-</td>
+                </tr>
+                
+                <tr>
+                    <td class="td1">User 2</td>
+                    <td id="u2-1" class="uRes u2Res">-</td>
+                    <td id="u2-2" class="uRes u2Res">-</td>
+                    <td id="u2-3" class="uRes u2Res">-</td>
+                    <td id="u2-4" class="uRes u2Res">-</td>
+                    <td id="u2-5" class="uRes u2Res">-</td>
+                    <td id="u2-total">-</td>  
+                </tr>
+            </table>
+        </div>
+    </div>
+                        <!-- <script>
+                            var df=document.getElementById("u2Timer");
+                            setTimeout(() => {
+                                df.style.visibility="hidden";
+
+                                document.getElementById("u2-4").innerHTML="10";
+                            }, 2000);
+                            setInterval(() => {
+                                df.src="../image/200.gif";
+                                df.style.visibility="visible";
+                            }, 5000);
+                            </script> -->
+                            <script>
+                                console.log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+                            </script>
+  
+    <script src="../javascript/first.js"></script>
+</body>
+</html>
